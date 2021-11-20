@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+.header {
+  margin-bottom: 80px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 32px 74px;
+  overflow: hidden;
+}
+img {
+  display: block;
+}
+.image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 50%;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94.78px;
+}
+.hero-container p {
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.button {
+  margin-top: 88px;
+  display: inline-block;
+  padding: 24px 43px;
+  background-color: #333333;
+  color: white;
+  font-size: 14px;
+}
+
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1204px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .hero-container h1 {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  .hero-container p {
+    font-size: 18px;
+    margin-top: 36px;
+  }
+}
