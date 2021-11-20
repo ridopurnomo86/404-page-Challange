@@ -58,12 +58,13 @@ img {
 }
 
 footer {
-  position: static;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 1204px) {
@@ -83,5 +84,9 @@ footer {
   .hero-container p {
     font-size: 18px;
     margin-top: 36px;
+  }
+  footer {
+    position: relative;
+    margin-top: 24px;
   }
 }
